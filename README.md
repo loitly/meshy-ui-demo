@@ -10,6 +10,11 @@ those requirements.
 
 ## Getting Started
 
+#### Dependencies:
+- Docker Desktop  or Docker with Docker Compose
+
+
+
 `Meshy-UI` is a github template.  You can either create a fork of the repository or create your own repository from this template.  
 Or, if you only wish to experiment with `Meshy-UI`, you can clone `Meshy-UI` directly without creating your own repository.
 
@@ -19,9 +24,24 @@ Or, if you only wish to experiment with `Meshy-UI`, you can clone `Meshy-UI` dir
 
     git clone https://github.com/loitly/meshy-ui-demo
     cd meshy-ui-demo
-    yarn start
-
+    docker compose up --build
 
 The above commands build and deploy the demo application on your local machine.  
 Goto [http://localhost:3000](http://localhost:3000) to see the application in your default browser.
+
+
+## For Developer
+
+#### Dependencies:
+- Node.js
+- Yarn
+
+
+    yarn dev
+
+Start application in DEV mode.  
+Changes to source code will appear immediately in your browser.  
+[http://localhost:3000](http://localhost:3000)
+
+
 

@@ -2,7 +2,7 @@
 import React, {useEffect, useState} from 'react';
 import {uniqueId} from 'lodash';
 
-const DEF_FIREFLY = 'https://irsadev.ipac.caltech.edu/irsaviewer/'
+const DEF_FIREFLY = 'https://irsa.ipac.caltech.edu/irsaviewer/'
 
 
 let notifyMe = [];
